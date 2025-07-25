@@ -12,7 +12,7 @@ const produtos = [
 
   //2 Usando Map
 
-  const precos = produtos.map((preco) => preco);
+  const precos = produtos.map((produto) => produto.preco);
   console.log(precos);
 
 
