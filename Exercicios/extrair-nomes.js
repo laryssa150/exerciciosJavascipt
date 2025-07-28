@@ -5,3 +5,6 @@ const usuarios = [
   ];
   
   // Use .map para criar um array apenas com os nomes.
+
+  const result = usuarios.map((usuario) => usuario.nome);
+  console.log(result);

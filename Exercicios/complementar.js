@@ -18,7 +18,7 @@ const produtos = [
 
   //3 Usando reduce
 
-  const preco = [50,100,200];
+  const preco = [50,100,200]; //array
 
  const somarValor = preco.reduce((valorAcumulado, elementoAtual)=>{
   return valorAcumulado + elementoAtual;

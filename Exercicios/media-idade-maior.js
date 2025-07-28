@@ -18,13 +18,13 @@ const pessoas = [
 
   // 3. Use reduce para somar e calcular a média
 
-  //const idade = [17,21,16,25];
+  const idade = [17,21,16,25];
 
- //const somarValor = idade.reduce((valorAcumulado, elementoAtual)=>{
-  //return valorAcumulado + elementoAtual;
- ///, 0);
+ const somarValor = idade.reduce((valorAcumulado, elementoAtual)=>{
+  return valorAcumulado + elementoAtual;
+ }, 0) / idade.length
 
- //console.log(somarValor);
+ console.log(somarValor);
 
   
 
